@@ -3,10 +3,18 @@ body {
 }
 .myName {
   color: hsl(39, 100%, 50%);
-  text-align: center;
+  text-align: left;
+  display: flex;
 }
 .myLogo {
   color: yellow;
   text-align: center;
   font-weight: 900;
+}
+img {
+  image-orientation: flip;
+  image-orientation: 0deg;
+}
+.myJurney {
+  display: flex;
 }
